@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Quicksand', sans-serif;
+  background: url("../images/nss.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100%;
+  background: #742330;
+  background: linear-gradient(-45deg, rgba(57, 34, 40, 0.8), rgba(194, 59, 81, 0.8));
+  -webkit-background: linear-gradient(-45deg, rgba(57, 34, 40, 0.8), rgba(194, 59, 81, 0.8));
+  -moz-background: linear-gradient(-45deg, rgba(57, 34, 40, 0.8), rgba(194, 59, 81, 0.8)); }
+  .container nav.navbar {
+    display: flex;
+    align-self: flex-start;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #e7afb8;
+    width: 100%; }
+    .container nav.navbar .navbar-brand {
+      font-size: 1.3rem;
+      font-weight: 500;
+      text-transform: uppercase; }
+  .container form#loginForm {
+    margin: auto;
+    border-radius: 4px;
+    width: 95%;
+    background: #fdfdfd;
+    overflow: hidden;
+    z-index: 5;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3), 5px 5px 10px rgba(0, 0, 0, 0.3); }
+    .container form#loginForm h4.title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      padding: 16px 32px;
+      color: #c23b51; }
+      .container form#loginForm h4.title .material-icons {
+        margin-right: 8px; }
+    .container form#loginForm .form-body .input-grp {
+      padding: 16px 32px; }
+      .container form#loginForm .form-body .input-grp label {
+        display: block;
+        padding: 4px;
+        font-weight: 500;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        color: #032942; }
+      .container form#loginForm .form-body .input-grp .input-txt {
+        padding: 8px;
+        width: 100%;
+        font-size: 1rem;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 300;
+        color: #032942;
+        border: 1px solid #f3d6db;
+        background: #f9eaec; }
+        .container form#loginForm .form-body .input-grp .input-txt:focus {
+          box-shadow: none;
+          outline: none;
+          background: #dff2fe;
+          border-color: #c7e7fc; }
+    .container form#loginForm .form-body .btn-login {
+      padding: 16px;
+      margin-top: 16px;
+      width: 100%;
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 500;
+      text-transform: uppercase;
+      font-size: 0.9rem;
+      border: none;
+      background: #c23b51;
+      color: #fdfdfd;
+      cursor: pointer;
+      transition: background 0.3s ease-in-out; }
+      .container form#loginForm .form-body .btn-login:hover {
+        background: #032942; }
+  @media screen and (min-width: 768px) {
+    .container form#loginForm {
+      width: 45%; } }
+
+/*# sourceMappingURL=style.css.map */
