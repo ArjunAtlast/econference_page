@@ -4,9 +4,13 @@
   margin: 0;
   box-sizing: border-box; }
 
-html, body {
+html {
   width: 100%;
-  height: 100%;
+  height: 100%; }
+
+body {
+  width: 100%;
+  min-height: 100%;
   font-family: 'Quicksand', sans-serif;
   background: url("../images/nss.jpg");
   background-repeat: no-repeat;
