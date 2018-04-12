@@ -10,7 +10,9 @@ html, body {
   font-family: 'Quicksand', sans-serif;
   background: url("../images/nss.jpg");
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
 
 .container {
   display: flex;
@@ -92,5 +94,107 @@ html, body {
   @media screen and (min-width: 768px) {
     .container form#loginForm {
       width: 45%; } }
+  .container .wrapper h4.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 16px 32px;
+    color: #fdfdfd; }
+    .container .wrapper h4.title .material-icons {
+      margin-right: 8px; }
+  .container .wrapper .team-wrapper {
+    padding: 32px; }
+    .container .wrapper .team-wrapper .team-member {
+      display: flex;
+      flex-direction: column;
+      padding: 8px; }
+      .container .wrapper .team-wrapper .team-member .team-member-content {
+        display: flex;
+        flex-direction: column;
+        background: #fdfdfd;
+        padding: 16px;
+        align-items: center;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px; }
+        .container .wrapper .team-wrapper .team-member .team-member-content .member-avatar {
+          width: 180px;
+          height: 180px;
+          border-radius: 50%;
+          overflow: hidden;
+          z-index: 10;
+          border: 8px solid #fdfdfd; }
+          .container .wrapper .team-wrapper .team-member .team-member-content .member-avatar img {
+            width: 100%; }
+        .container .wrapper .team-wrapper .team-member .team-member-content .member-details {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-top: 20px;
+          color: #032942; }
+          .container .wrapper .team-wrapper .team-member .team-member-content .member-details .name {
+            text-transform: uppercase;
+            font-weight: 500;
+            padding: 8px; }
+          .container .wrapper .team-wrapper .team-member .team-member-content .member-details .det {
+            padding: 8px;
+            text-align: center;
+            font-size: 0.9rem; }
+      .container .wrapper .team-wrapper .team-member .team-designation {
+        padding: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #c23b51;
+        color: #fdfdfd;
+        font-weight: 500;
+        text-transform: uppercase;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px; }
+        .container .wrapper .team-wrapper .team-member .team-designation.t2 {
+          background: #032942; }
+      @media screen and (min-width: 768px) {
+        .container .wrapper .team-wrapper .team-member .team-member-content {
+          margin-top: 80px; }
+          .container .wrapper .team-wrapper .team-member .team-member-content .member-avatar {
+            margin-top: -96px; } }
+  .container footer {
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.3);
+    color: #e7afb8;
+    margin-top: auto; }
+    .container footer .footer-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 16px; }
+      .container footer .footer-content .strong {
+        font-size: 1rem;
+        text-transform: uppercase; }
+      .container footer .footer-content .light {
+        font-size: 0.8rem;
+        text-decoration: none;
+        color: #e7afb8;
+        transition: color 0.3s ease-in-out; }
+        .container footer .footer-content .light:hover {
+          color: #fdfdfd; }
+    @media screen and (min-width: 768px) {
+      .container footer .footer-content {
+        padding: 32px; }
+        .container footer .footer-content .strong {
+          font-size: 1.2rem; } }
+    .container footer .copyright {
+      padding: 16px;
+      background: rgba(0, 0, 0, 0.3);
+      color: #e7afb8; }
+      .container footer .copyright a {
+        text-decoration: none;
+        color: #e7afb8;
+        transition: color 0.3s ease-in-out; }
+        .container footer .copyright a:hover {
+          color: #fdfdfd; }
 
 /*# sourceMappingURL=style.css.map */
