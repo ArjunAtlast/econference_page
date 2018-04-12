@@ -110,7 +110,8 @@ body {
     .container .wrapper h4.title .material-icons {
       margin-right: 8px; }
   .container .wrapper .team-wrapper {
-    padding: 32px; }
+    padding: 32px;
+    justify-content: center; }
     .container .wrapper .team-wrapper .team-member {
       display: flex;
       flex-direction: column;
@@ -141,6 +142,7 @@ body {
           .container .wrapper .team-wrapper .team-member .team-member-content .member-details .name {
             text-transform: uppercase;
             font-weight: 500;
+            font-size: 0.9rem;
             padding: 8px; }
           .container .wrapper .team-wrapper .team-member .team-member-content .member-details .det {
             padding: 8px;
